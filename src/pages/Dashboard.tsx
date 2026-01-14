@@ -10,7 +10,6 @@ import {
 } from 'lucide-react';
 import { format, isToday, isPast, isFuture } from 'date-fns';
 import { parseDate, parseDateTime } from '@/lib/dateUtils';
-import { PageHeader } from '@/components/ui/page-header';
 import { EmptyState } from '@/components/ui/empty-state';
 import { Button } from '@/components/ui/button';
 import { StatusBadge } from '@/components/ui/status-badge';
